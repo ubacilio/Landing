@@ -1,0 +1,29 @@
+section#solarFarm, section#granjaSolar {
+    margin-top: 100px; 
+}
+.introductionPhotovoltaic {
+    text-align: center;
+    margin-bottom: 70px;
+}
+.introductionPhotovoltaic h2{
+    font-family: 'BelleRoseReg';
+}
+.introductionPhotovoltaic p {
+    font-family: 'PoppinsReg';
+    padding-left: 5%;
+    padding-right: 5%;
+}  
+.introductionPhotovoltaic p strong {
+    font-family: 'PoppinsBold';
+}
+#solarFarm h3, #granjaSolar h3 {
+    font-family: 'PoppinsBold';
+}
+#solarFarm span, #granjaSolar span {
+    font-family: 'PoppinsReg';
+}
+@media (min-width:768px){
+    #solarFarm .row, #granjaSolar .row {
+        transform: scale(0.8);
+    }
+}

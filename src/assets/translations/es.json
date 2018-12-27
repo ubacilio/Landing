@@ -1,0 +1,15 @@
+{
+    "user": "Usuario",
+    "menu":{
+        "home": "Inicio",
+        "technologies": "Tecnologías",
+        "platform": "Plataforma",
+        "aboutUs": "Sobre Nosotros",
+        "faq": "FAQ",
+        "blog": "Blog"
+    },
+    "home":{
+        "title": "CST MINING,",
+        "subtitle": "COMIENCE A MINAR CRIPTOMONEDAS"
+    }
+}

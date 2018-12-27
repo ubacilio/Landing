@@ -1,0 +1,137 @@
+#sobre-nosotros, #about-us{
+    overflow-x:hidden;
+}
+#sobre-nosotros .grid, #about-us .grid {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+#sobre-nosotros h1, #about-us h1 {
+    text-align: center;
+    font-family: 'BelleRoseReg' ;
+    font-size: 2em;
+}
+#sobre-nosotros h2, #about-us h2 {
+    text-align: center;
+    font-family: 'PoppinsReg';
+    font-size: 1.8em;
+}
+
+#sobre-nosotros h3, #about-us h3 {
+    text-align: center;
+    font-family: 'PoppinsReg';
+    font-size: 1.5em;
+}
+#sobre-nosotros p, #about-us p{
+    font-family:'PoppinsReg';
+    font-size:1em;
+}
+.core{
+    background: #f6f6f6;
+    padding: 5%;
+    text-align: center;   
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-align:center;
+}
+
+
+.CEO { 
+    display: block;
+    float: left;
+    margin-top: 30px;
+    width: 65%;
+    padding-left: 20px;
+    border-left: 1px solid green;
+}
+.columnCEO .photoCEO {
+    width: 25% !important;
+}
+.photoCEO {
+    padding-right: 20px;
+}
+.underline_title_descriptionProject{
+    margin-bottom: 30px !important;
+}
+.descriptionCEO {
+    padding-right: 10%;
+    clear: both;
+    top: 20px;
+    position: relative;
+}
+#about-us .CEO h2, #sobre-nosotros .CEO h2{
+    text-align:left !important;
+    margin-bottom: 0px;
+}
+#about-us .CEO h3, #sobre-nosotros .CEO h3 {
+    font-size: 1.2em !important;
+    font-family: 'PoppinsThin' !important;
+    text-align:left;
+    margin-top: 0px;
+}
+div.intro-about {
+    text-align: center !important;
+}
+#about-us .grid p ,#sobre-nosotros .grid p, div.intro-about {
+    text-align: justify;
+    font-family: 'PoppinsReg';
+    line-height: 1.2em;
+}
+div.intro-about strong{
+    font-weight:bold;
+}
+#sobre-nosotros div.intro-about i, #about-us div.intro-about i{
+    color: #21ba45;
+    font-style: normal;
+    font-family: 'PoppinsLight';
+    font-size: 2.5rem;
+    top: 20px;
+    position: relative;
+    line-height: 3.5rem;
+    text-align: center;
+    display:block;
+
+}
+/* #about-us i ,#sobre-nosotros i {
+    font-style: italic;
+    font-size: 1.5em;
+    font-family: 'PoppinsBold';
+    margin-top: 40px;
+    display: block;
+} */
+#sobre-nosotros .grid .columnCEO img.ui.image, #about-us .grid .columnCEO img.ui.image {
+    /* margin: 0 auto;
+    margin-bottom: 20px; */
+    float:left;
+}
+.mision {
+    margin-bottom: 40px;
+    margin-top: 40px; 
+    padding: 40px 30px; 
+    background:#21ba45 url('../images/watermark.svg') no-repeat;
+    background-repeat: no-repeat;
+    background-position: 1000px -152px;
+    background-size: 35%;
+    color:white;
+
+}
+.mision .underline_title_descriptionProject{
+    background-color: #243A26;
+}
+@media (min-width:768px) and (max-width: 1025px){
+
+    .mision{
+        background-position: 430px -92px;
+    }
+}
+@media (min-width: 991px) and (max-width: 1025px){
+    #sobre-nosotros .grid .columnCEO img.ui.image, #about-us .grid .columnCEO img.ui.image{
+        width: 80% !important;
+        margin: 0 auto;
+        display: block;
+        float: none;
+    
+    }
+    .CEO{
+        width: 100%;
+    }
+}

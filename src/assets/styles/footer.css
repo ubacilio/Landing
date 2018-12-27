@@ -1,0 +1,149 @@
+
+footer{
+    background-color: #2d3137;
+    color:white; 
+    background-position-y: -310px;
+    margin-top: 20px;
+    font-family: 'PoppinsReg';    
+    border-top: 5px solid #f29d46;
+}   
+footer h2 {
+    text-align: left;
+    font-family: 'BelleRoseReg' !important;
+    font-size: 1.5em;
+    margin-top: 50px !important;
+}
+footer .underline_title_descriptionProject{
+    margin:unset;
+    width: 240px;
+}
+.linksFooter{
+    text-align: left;
+    margin-top: 20px;
+    width: 160px;
+}
+.linksFooter strong{
+    font-weight:800;
+}
+footer a.hideLink {
+    font-family: 'OVERPASS';
+    color: #fff;
+    text-decoration: none;
+    line-height: 1.75;
+    font-weight: 400;
+    display: inline-block;
+    padding-bottom: 1px;
+}
+footer a.underlineLink:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    transition: opacity 100ms;
+}
+footer a:active, footer a:link, footer a:visited{
+    color:#fff;
+}
+footer .hideLink:hover.underlineLink:after {
+    opacity: 0;
+    transition: opacity 100ms;
+}
+
+ 
+
+footer .socialFooter a{
+    width: 7%;
+    margin-right: 20px;
+    color:#fff;
+}
+footer small{
+    font-weight: bold;
+    cursor: pointer;
+}
+.socialFooter {
+    text-align: left;
+    margin-top: 30px;
+} 
+@media (min-width:320px) and (max-width:735px){
+
+    footer .socialFooter{
+        display:none;
+    }
+    footer .contactFooter{
+        display:none;
+    }
+    .copyright{
+        top: 120px;
+        padding-left: 10px;
+        padding-right: 10px
+    }
+    footer .socialFooter a{
+        width: 13%;
+        margin-right: 20px;
+        color:#fff;
+    }
+}
+.copyright { 
+    text-align: center;
+}
+#cookieslink {
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+}
+p.socialNetworks {
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.logoFooter{
+    margin: 0 auto;
+    margin-bottom:30px !important;
+    margin-top: 20px !important;
+    width: 30% !important;
+}
+@media (min-width:320px) and (max-width: 414px){
+    .ui.image.logoFooter{ 
+        margin-top:100px !important;
+    }
+    p.socialNetworks a i {
+        width: 30px;
+        margin-right: 5px;
+    }
+}
+@media (min-width:735px) and (max-width: 764px){
+    .ui.image.logoFooter{ 
+        margin-top:230px !important;
+    }
+}
+
+@media (min-width:768px) and (max-width: 1024px){
+    .ui.image.logoFooter{ 
+        margin: 0 auto;
+        margin-top: 190px !important;
+    }
+}
+@media (min-width:414px) and (max-width: 768px){
+   p.socialNetworks {
+       text-align: center !important;
+   }
+    footer h2{
+       text-align: center;
+   }
+   footer .underline_title_descriptionProject{
+       margin:0 auto;
+   }
+}
+
+@media (max-width: 812px){
+    footer h2{
+        text-align:center !important;
+    }
+    footer .underline_title_descriptionProject{
+        margin:0 auto !important;
+    }
+    p.socialNetworks{
+        text-align: center;
+    }
+}

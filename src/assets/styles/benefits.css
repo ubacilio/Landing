@@ -1,0 +1,223 @@
+.benefits {
+    background-color: #21ba45;
+    min-height: 50px;
+    margin-top: 150px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.containBenefits h3{
+    text-align: left;
+    color: white;
+    margin-left: 11vw;
+    font-family: 'OVERPASS';
+    font-size: 30px;
+}
+.containBenefits {
+    width: 90%;
+    margin: 0 auto;
+    clear: both;
+    bottom: 60px;
+    position: relative;
+    margin-top: 50px;
+}
+.benefits .customCards {
+    width: 66%;
+    margin: 0 auto;
+    top: -70px;
+    position: relative;
+    display: flex;
+}
+.customCards div, .customCards img {
+    float: left;
+}
+.benefits .customCards .card{
+    border: none !important;
+    box-shadow: none !important;
+}
+.customCards .card div {
+    padding-left: 30px;
+    width: 60%;
+}
+.customCards h5 {
+    font-family: 'PoppinsReg';
+    text-transform: uppercase;
+    font-size: 1.4em;
+} 
+.customCards p {
+    font-size: 0.9em;
+    font-family: 'PoppinsReg';
+    line-height: 23px;
+    width:108%;
+}
+.benefit img {
+    width: 45%;
+}
+.benefit h4, .benefit p{
+    text-align: left;
+    color:white; 
+}
+.benefit h4{ 
+    font-family: 'OVERPASS';
+    font-size:25px;
+}
+.card {
+    background-color: white;
+    width: 48%;
+    height: 200px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.card.left {
+    margin-right: 30px;
+}
+.benefit p{ 
+    font-family: 'ARIAL';
+    font-size: 15px;
+    line-height: 29px;
+}
+.card img.ui.small.image {
+    max-width: 40%;
+    max-height: 170px;
+}
+@media (min-width: 320px) and (max-width:414px){
+    .benefits .customCards .card div[role=button]{
+        width: 22% !important;
+        top: 50px;
+        position: relative;
+        height: unset !important;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .benefits .customCards .card{
+        padding-left: 30px;
+    }
+    .customCards .card div{
+        width: 75%;
+        padding-right: 2em;
+    }
+    
+    .grid .row img.ui.image {
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    #socialNetworks div[role=listitem] {
+        width: 20%;
+        padding-left: unset;
+        padding-right: unset;
+    }
+}
+@media (min-width:667px) and (max-width: 736px){
+    .benefits .customCards .card div[role=button]{
+        width: 25% !important;
+        top: -20px !important;
+        position: relative;
+        height: unset !important;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+@media (min-width: 320px) and (max-width:768px){
+    .benefits .customCards {
+        width: 100% !important;
+        display: block;
+    }
+    .benefits .customCards .card {
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+        border: 11px solid #21ba45 !important;
+    }
+    .card .image {
+        width: 30%;
+    }
+    .containBenefits h3 {
+        text-align: left;
+        color: white;
+        margin-left: 20px;
+        font-family: 'OVERPASS';
+        font-size: 30px;
+        position: relative;
+        top: 20px;
+    }
+    #socialNetworks div[role=listitem] {
+        width: 14%;
+        padding-left: unset;
+        padding-right: unset;
+    }
+    .benefits .customCards .card div[role=button]{
+        width: 25% !important;
+        top: 20px;
+        position: relative;
+        height: unset !important;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+@media (min-width:768px) and (max-width: 991px){
+    .containBenefits{
+        margin-left: 50px;
+    }
+    .benefits .customCards .card div[role=button]{
+        width: 23% !important;
+        top: -15px;
+        position: relative;
+        height: unset !important;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+}
+@media (min-width: 991px){ 
+    .benefits .customCards {
+        width: 66%; 
+        top: -70px; 
+    }
+    
+    .containBenefits {
+        width: 90%;
+        margin: 0 auto;
+        clear: both;
+        top: -50px;
+        position: relative;
+    }
+    .benefits .customCards .card div[role=button]{
+        width: 30% !important;
+        top: 20px;
+        position: relative;
+        height: unset !important;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media (min-width: 1190px){ 
+    .benefits .customCards .card div[role=button]{
+        width: 30% !important;
+        top: 0px;
+        position: relative;
+        height: unset !important;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media (min-width: 1440px){ 
+    .benefits .customCards .card div[role=button]{
+        width: 24% !important;
+        top: -10px;
+        position: relative;
+        height: unset !important;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media (min-width: 735px) {
+    .customCards .card div { 
+        margin-top: 0px;
+    }
+    .card .image {
+        width: 20%;
+    }
+}

@@ -1,0 +1,98 @@
+#press {
+    margin-top: 80px;
+}
+#home #press{
+    margin-bottom: 20px;
+}
+#press h2 {
+    text-align: center;
+    font-family: 'BelleRoseReg' !important;
+}
+.greyscale{
+    filter: grayscale(100%);
+    opacity: .5;
+}
+.greyscale:hover{
+    filter: grayscale(0%);
+    opacity: 1;
+}
+@media (min-width:735px) and (max-width: 991px){
+    #press {
+         
+    } 
+}
+#press .logo{ 
+    /* margin:0 auto;
+    display:block; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-image:url('../images/press/press-logos.png'); */
+}
+.logo.empty{
+    width:200px;
+    height: 70px;
+    background-repeat: no-repeat;
+    background-position: 300px;
+}
+.logo.europapress{
+    width:200px;
+    height: 70px;
+    background-position: 2211px 0px;
+}
+.logo.lavanguardia{
+    width:220px;
+    height: 70px; 
+    background-position: 1970px 0px;
+}
+.logo.diariosur{
+    width:220px;
+    height: 70px; 
+    background-position: 220px 0px;
+}
+.logo.xataka{
+    width:200px;
+    height: 70px; 
+    background-position: 1460px 0px;
+}
+.logo.energiasrenovables{
+    width:220px;
+    height: 70px; 
+    background-position: 1220px 0px;
+}
+
+.logo.elperiodicoenergia{
+    width: 220px;
+    height: 70px;
+    background-position: 450px 0px;
+}
+.logo.esp24{
+    width: 200px;
+    height: 70px; 
+    background-position: 960px 0px;
+}
+
+.logo.bitcoinist{ 
+    width: 220px;
+    height: 70px;
+    background-position: -15px 0px;
+}
+.logo.coinspeaker{
+    width: 220px;
+    height: 70px; 
+    background-position: 2720px 0px;  
+}
+.logo.bitcoinexchangeguide{
+    width: 230px;
+    height: 70px;
+    background-position: 2475px 0px;
+}
+.logo.pvtech{
+    width: 220px;
+    height: 70px; 
+    background-position: 710px 0px;   
+}
+.logo.ccn{
+    width: 200px;
+    height: 70px; 
+    background-position: 1705px 0px;   
+}

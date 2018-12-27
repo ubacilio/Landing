@@ -1,0 +1,18 @@
+.questionsFAQ {
+    min-height: 300px;
+}
+.title .icon {
+    float: right !important;
+}
+
+@media (min-width:320px) and (max-width:414px){
+    .questionsFAQ {
+        min-height: 440px;
+    }
+    .title .icon { 
+        position: relative;
+        right: 0px;
+        top: 0px;
+        left: 10px;
+    }
+}

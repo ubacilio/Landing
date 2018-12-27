@@ -1,0 +1,112 @@
+#partners { 
+}
+#partners h2 {
+    text-align: left;
+    font-family: 'BelleRoseReg' !important;
+}
+#partners .underline_title_descriptionProject{
+    margin: unset;
+}
+.greyscale{
+    filter: grayscale(100%);
+    opacity: .5;
+}
+.greyscale:hover{
+    filter: grayscale(0%);
+    opacity: 1;
+}
+@media (min-width:735px) and (max-width: 991px){
+    #partners { 
+        margin: 0 auto;
+        height: 200px;
+    }
+} 
+.partners .logo{
+    float:left;
+}
+.partners .logo img{
+    margin-top:0px !important;
+}
+.logo.puzzlegold{
+    width:200px;
+    height: 70px;
+    background-position: 730px 0px;
+}
+.logo.montbrun{
+    width:220px;
+    height: 70px; 
+    background-position: 0px 0px;
+}
+.logo.risen{
+    width:200px;
+    height: 100px !important; 
+    background-position: 230px 0px;
+}
+.logo.platasol{
+    width:200px;
+    height: 70px; 
+    background-position: 460px 0px;
+}
+@media (min-width: 320px) and (max-width: 735px){
+    #plataforma #partners, 
+    #faq #partners,
+    #sobre-nosotros #partners,
+    #about-us #partners 
+    {
+        max-height: 570px;
+    } 
+}
+@media (min-width: 414px) and (max-width: 736px){
+    #faq #partners .logo , #plataforma #partners .logo ,#platform #partners .logo , #home #partners .logo , #inicio #partners .logo {
+        height: 70px ;
+    }
+    #faq #partners .logo.risen, #platform #partners .logo.risen, #plataforma #partners .logo.risen, #home #partners .logo.risen, #inicio #partners .logo.risen{
+        width:200px;
+        height: 70px !important; 
+        background-position: 230px 0px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    #sobre-nosotros #partners .logo.risen, #about-us #partners .logo.risen, #tecnologias #partners .logo.risen, #technologies #partners .logo.risen, #faq #partners .logo.risen, #plataforma #partners .logo, #home #partners .logo , #inicio #partners .logo {
+        height: 70px !important;
+    }
+       #home #partners .logo.risen, #inicio #partners .logo.risen{
+        width:200px;
+        height: 100px !important; 
+        background-position: 230px 0px;
+    }
+} 
+@media (max-width:991px){
+    #partners .logo img {
+        display: block;
+        margin-top: 0px;
+    }
+}
+@media (min-width:992px){
+    #partners .logo img {
+        display: inline; 
+        margin-top: 0px;
+    }
+    #partners {
+        height: 170px;
+    }
+}
+.logosPartners {
+    width: 720px;
+    margin: 0 auto;
+}
+@media (min-width:414px) and (max-width: 768px){
+    
+    #partners h2{
+        text-align: center;
+    }
+    #partners .underline_title_descriptionProject{
+        margin:0 auto;
+    }
+ }
+ @media (min-width:992px) and (max-width: 1024px){
+    #partners .logo img {
+        width: 40%;
+    }
+ }

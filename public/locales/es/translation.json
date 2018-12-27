@@ -1,0 +1,16 @@
+{
+    "user": "Usuario",
+    "menu":{
+        "home": "Inicio",
+        "servicios": "Servicios",
+        "soporte": "Soporte",
+        "nosotros": "Nosotros",
+        "contacto": "Contacto",
+        "blog": "Blog"
+    },
+    "home":{
+        "title": "GRUPO PTM",
+        "subtitle": "BIENVENIDO AL FUTURO",
+        "CTA_Cover": "Comenzar"
+    }
+}

@@ -1,0 +1,13 @@
+
+# dependencies
+/node_modules
+
+#Firebase Dependencies
+/functions/node_modules
+<<<<<<< HEAD
+.firebase/
+=======
+>>>>>>> b1913bc6d93ac579a186c4966c32574da492049c
+
+# production
+/build

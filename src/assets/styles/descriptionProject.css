@@ -1,0 +1,305 @@
+#plataforma{
+    overflow-x:hidden;
+}
+#plataforma{
+    margin-top:40px;
+}
+#descriptionProject img.ui.image {
+    box-shadow: 3px 4px 6px black;
+}
+#descriptionProject .deco-left {
+    display: inline-block;
+    width: 20%;
+}
+#descriptionProject .title_descriptionProject {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    bottom: 26%;
+}
+
+.underline_title_descriptionProject {
+    width: 14%; 
+    background-color:#22ba45;
+    height: 2px;
+    margin: 0 auto;
+}
+#descriptionProject .deco-right {
+    width: 79%;
+    display: inline-block;
+}
+.deco-right img {
+    float: right;
+    width: 13%;
+    margin-right: 14.6%;
+    bottom: 50px;
+}
+#descriptionProject h5 {
+    font-family: 'PoppinsReg';
+    font-size: 26px;
+}
+
+#descriptionProject span {
+    display: inline-block;
+    width: 50%;
+    font-family: 'ARIAL';
+    line-height: 33px;
+}
+#descriptionProject .row:not(:nth-child(1)) {
+    margin-top: 70px;
+}
+.deco-minerosXS {
+    max-width: 200px;
+}
+.deco-arb-placas {
+    width: 35%;
+    position: absolute;
+    right: 90px;
+    top: 40px;
+}
+.deco-almacen-placas {
+    width: 35%;
+    position: absolute;
+    top: 30px;
+    left: 90px;
+}
+.deco-nave {
+    position: absolute;
+    width: 30%;
+    left: 200px;
+    top: 20px;
+}
+.deco-minerosXL {
+    width: 30%;
+    position: absolute;
+    top: 90px;
+    left: 170px;
+}
+/*MOBILE PORTRAIT*/
+@media (min-width: 319px){ 
+    #descriptionProject{
+      padding: 2em;
+      margin-bottom: 90px;
+    }
+    #descriptionProject span {
+        display: inline-block;
+        width: 100%;
+        font-family: 'ARIAL';
+        line-height: 33px;
+    }
+    .row:nth-child(1) {
+        margin-bottom: -50px;
+    }
+    .grid .row img.ui.image {
+        margin-top: 30px;
+    }
+    #descriptionProject .row:not(:nth-child(1)) {
+        margin-top: 50px;
+    } 
+    #descriptionProject .title_descriptionProject {
+        text-align: center;
+        position: relative;
+        width: 100%;
+        display: block;
+        margin-top: -70px;
+        margin-bottom: 40px;
+        height: 150px;
+    }
+    .row:nth-child(1) .title_descriptionProject {
+        top: 40px;
+    }
+    #descriptionProject .deco-left {
+        display: inline-block;
+        width: 57%;
+        position: absolute;
+        bottom: -27px;
+        left: -50px;
+    }
+    #descriptionProject .deco-right {
+        width: 34%;
+        position: absolute;
+        bottom: 44px;
+        right: -30px;
+        z-index: -1;
+    }
+  .underline_title_descriptionProject{
+        width: 34%;
+    }
+    .ui.grid.title_subscribe {
+        height: 110px;
+        margin-top: 40px;
+        margin-bottom: 80px;
+        max-width: 100%;
+    }
+     
+}
+@media (min-width: 374px){ 
+    
+     
+}
+@media (min-width: 413px){  
+     
+}
+/*MOBILE LANDSCAPE*/
+@media (min-width: 735px){ 
+    #descriptionProject .deco-left {
+        display: inline-block;
+        width: 36%;
+        position: absolute;
+        bottom: -20px;
+    }
+    #descriptionProject .deco-right {
+        width: 21%;
+        position: absolute;
+        bottom: 54px;
+        right: 10px;
+    }
+     
+}
+
+
+@media (min-width: 768px) and (max-width: 991px){ 
+    #descriptionProject{
+        padding: 2em;
+    }
+    #descriptionProject span {
+          display: inline-block;
+          width: 100%;
+          font-family: 'ARIAL';
+          line-height: 33px;
+    }
+    .row:nth-child(1) {
+          margin-bottom: -50px;
+    }
+    .grid .row img.ui.image {
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    #descriptionProject .row:not(:nth-child(1)) {
+          margin-top: 50px;
+    } 
+    #descriptionProject .deco-left {
+        display: inline-block;
+        width: 36%;
+        position: relative;
+        bottom: -140px;
+        right: 60px;
+        margin-top: -230px;
+    }
+
+     
+} 
+/* TABLET LANDSCAPE  */
+@media (min-width: 1023px){ 
+    .benefits { 
+        margin-top: 240px;
+    }
+    #descriptionProject .title_descriptionProject {
+        text-align: center;
+        position: relative;
+        width: 100%;
+        display: block;
+        margin-top: -20px;
+        margin-bottom: 40px;
+        height: 150px;
+    }  
+     
+}
+
+/* LAPTOP AND LAPTOP HD */
+@media (min-width: 1199px) and (max-width: 1366px){ 
+    .ui.grid.title_subscribe {
+        height: 70px;
+        margin-top: 60px;
+        margin-bottom: 80px;
+    }
+    #descriptionProject .deco-left {
+        display: inline-block;
+        width: 32%;
+        position: absolute;
+        bottom: -157px;
+    }
+    #descriptionProject .deco-right {
+        width: 17%;
+        position: absolute;
+        bottom: -45px;
+        right: 40px;
+    }
+     
+}
+
+/* LARGE SCREEN */
+@media (min-width: 1366px){ 
+    
+    #descriptionProject .title_descriptionProject {
+        margin-top: 0px;
+    }
+    #descriptionProject .deco-left {
+        display: inline-block;
+        width: 32%;
+        position: absolute;
+        bottom: -87px;
+        left: 100px;
+        z-index: -1;
+    }
+    #descriptionProject .deco-right {
+        width: 17%;
+        position: absolute;
+        bottom: 5px;
+        right: 270px;   
+         z-index: -1;
+    }
+    .underline_title_descriptionProject {
+        width: 18%;
+    } 
+}
+
+@media (min-width: 1500px) and (max-width:1520px){ 
+    #descriptionProject .title_descriptionProject {
+        margin-top: 0px;
+    }
+    #descriptionProject .deco-left {
+        display: inline-block;
+        width: 32%;
+        position: absolute;
+        bottom: -87px;
+        left: 100px;
+        z-index: -1;
+    }
+    #descriptionProject .deco-right {
+        width: 17%;
+        position: absolute;
+        bottom: 5px;
+        right: 270px;   
+         z-index: -1;
+    }
+    .underline_title_descriptionProject {
+        width: 18%;
+    }
+     
+}
+
+
+/* WIDESCREEN */
+@media (min-width: 1800px){ 
+    
+    #descriptionProject .title_descriptionProject {
+        margin-top: 0px;
+    }
+    #descriptionProject .deco-left {
+        display: inline-block;
+        width: 32%;
+        position: absolute;
+        bottom: -157px;
+    }
+    #descriptionProject .deco-right {
+        width: 17%;
+        position: absolute;
+        bottom: -45px;
+        right: 40px;
+    }
+    .underline_title_descriptionProject {
+        width: 11%;
+    }
+     
+}

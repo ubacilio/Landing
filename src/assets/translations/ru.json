@@ -1,0 +1,11 @@
+{
+    "home": "Home",
+    "user": "User",
+    "menu":{
+        "technologies": "Технологии",
+        "platform": "Платформа",
+        "aboutUs": "О нас",
+        "faq": "ЧЗВ",
+        "blog": "Блог"
+    }
+}

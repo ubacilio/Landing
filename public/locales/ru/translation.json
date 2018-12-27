@@ -1,0 +1,17 @@
+{
+    "user": "User",
+    "menu":{
+        "home": "Jhskajdhakljdh",
+        "technologies": "Технологии",
+        "platform": "Платформа",
+        "aboutUs": "О нас",
+        "faq": "ЧЗВ",
+        "blog": "Блог"
+    },
+    "home":{
+        "title": "CST MINING,",
+        "subtitle":"ПЕРВЫЙ ЗЕЛЕНЫЙ МАЙНИНГОВЫЙ ПУЛ В МИРЕ ",
+        "CTA_Cover": "Попробуй демо!"
+    }
+
+}

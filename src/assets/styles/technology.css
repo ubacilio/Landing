@@ -1,0 +1,65 @@
+#technologies, #tecnologias{  
+    overflow-x:hidden;
+}
+#technology{ 
+    margin-top: 100px;
+}
+#technology h2{
+    text-align:center;
+    font-family: 'BelleRoseReg'; 
+}
+#technology p{
+    font-family: 'PoppinsReg';
+    text-align:left;
+}
+.descriptiontechnology {
+    max-width: 410px;
+}
+#technology .image {
+    margin-top: 0px;
+}
+#technology .grid{
+    margin-top:50px;
+}
+#technology ul {
+    padding: 0px;
+    margin: 0px;
+    padding-left: 20%;
+    padding-right: 15%;
+}
+#technology ul li {
+    list-style: none;
+    text-align:left;
+}
+#technology ul li strong {
+    float: right;
+    font-family: 'PoppinsBold';
+}
+.row.RowMineros {
+    margin-top: 40px;
+}
+
+#technology h3{
+    font-size: 0.9rem;
+}
+#technology ul li{
+    font-family: 'PoppinsReg';
+    font-size: 0.8rem;
+}
+@media (min-width:735px) and (max-width: 991px){
+    .descriptiontechnology {
+        max-width: 90%;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+
+@media (min-width:735px) and (max-width: 1024px){
+    #technology ul{
+        padding: 0px;
+        margin: 0px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}

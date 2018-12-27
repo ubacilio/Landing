@@ -1,0 +1,62 @@
+.ui.stackable.menu {
+    box-shadow: none;
+    border: none;
+}
+.ui.menu .item{
+    border:none !important;
+    float:left;
+}
+.ui.menu .item:before{
+    width: 0px !important;
+    background:none !important;
+}
+.contenido .ui.menu {
+    border: 0;
+    box-shadow: none; 
+    width: 100%;
+    height: 50px;
+    top: 0px;
+    background: #fff;
+    z-index: 3;
+    border-radius: 0px;
+    box-sizing: unset;
+    font-size: 1.1em;
+}
+.contenido .ui.menu .item a:hover, .contenido .ui.menu .item a:active, .contenido .ui.menu .item a:link, .contenido .ui.menu a{
+    color: #243A26 !important;
+}
+/* MOBILE PORTRAIT */
+@media (max-width: 414px){ 
+    .left.menu , .right.menu {
+        margin: none;
+    }
+    .logoTopMenu{
+        width: 50% !important;
+    }
+}
+/* MOBILE LANDSCAPE */
+@media (max-width: 768px){ 
+    .contenido .ui.menu{
+        height:unset;
+    }
+    .contenido .mainMenuHide{
+        display: none !important;
+    }
+    .contenido .mainMenuShow{
+        display: unset !important;
+    }
+}
+/*DESKTOP AND MORE*/
+@media (min-width: 1025px){ 
+    .left.menu {
+        margin-left: 4vw !important;
+    } 
+    .right.menu {
+        margin-right: 4vw !important;
+    }
+}
+
+.logoTopMenu {
+    width: 30%;
+    top: 20px;
+}

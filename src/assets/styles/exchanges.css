@@ -1,0 +1,155 @@
+#exchanges {
+    margin-top: 40px;  
+    background:#21ba45 url('../images/watermark.svg') no-repeat;
+    background-repeat: no-repeat;
+    background-position: 1000px -152px;
+    background-size: 35%;
+}
+#exchanges h2 {
+    text-align: left;
+    font-family: 'PoppinsBold';
+    color:white;
+}
+#exchanges p{
+    color:white;
+    font-family: 'PoppinsReg';
+    line-height: 30px;
+
+}
+#exchanges .ui.grid{ 
+    display: block;
+    padding: 50px;
+    padding-bottom: 90px;
+}
+#exchanges .ui.grid .row img.ui.image{
+    margin-top:0px;
+}
+.greyscale{
+    filter: grayscale(100%);
+    opacity: .5;
+}
+.greyscale:hover{
+    filter: grayscale(0%);
+    opacity: 1;
+}
+@media (min-width:735px) and (max-width: 991px){
+    #exchanges { 
+        margin: 0 auto;
+    }
+} 
+#exchanges .logo{ 
+    margin:0 auto;
+    display:block;
+    background-image:url('../images/trading-logos.png');
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.logo.idex{
+    width:200px;
+    height: 70px;
+    background-position: 730px 0px;
+}
+.logo.digifinex{
+    width:220px;
+    height: 70px; 
+    background-position: 0px 0px;
+} 
+
+@media (min-width:768px) and (max-width: 1024px){
+    #exchanges {
+        margin-top: 40px;
+    }
+}
+a.ui.white.button {
+    background-color: white; 
+    box-shadow: -4px 2px 6px #4c4c4c;
+    border-radius: 15px;
+    margin-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+a.ui.white.button:hover { 
+    
+    box-shadow: -1px 3px 5px #4c4c4c;
+}
+a.ui.white.button:active {  
+    box-shadow: inset -1px 0px 6px #4c4c4c;
+}
+#exchanges .row:nth-child(1){
+    margin-bottom:0px;
+}
+#exchanges .buttonTutorial:nth-child(2) {
+    float: right; 
+}
+#exchanges .buttonTutorial:nth-child(1) {
+    float: left; 
+}
+.buttonTutorial {
+    display: inline-block;
+    background-color: #243A26;
+    color:white;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: 'PoppinsReg';
+    width: 180px;
+    text-align: center;
+}
+.buttonTutorial a, .buttonTutorial a:link, .buttonTutorial a:hover, .buttonTutorial a:active{
+    
+    color: white;
+}
+@media (min-width: 320px) and (max-width: 414px){
+    #exchanges .buttonTutorial:nth-child(1), #exchanges .buttonTutorial:nth-child(2) {
+        float: none;
+        margin: 0 auto;
+        display: table;
+        margin-top: 20px;
+    }
+    #exchanges {
+        background-position: 0px -60px;
+        background-size: 60%;
+    }
+}  
+@media (min-width: 736px) and (max-width: 813px){
+    #exchanges .ui.button.white:nth-child(1){
+        margin-right:20px;
+    }
+    #exchanges .ui.button.white:nth-child(2){
+        margin-left:20px;
+    }
+    
+    #exchanges {
+        background-position: 500px -92px;
+    }
+}
+
+@media (min-width: 1023px){
+    #exchanges .buttonTutorial:nth-child(1), #exchanges .buttonTutorial:nth-child(2){
+        margin: 0 auto;
+        display: table; 
+        margin-top: 10px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    #exchanges .buttonTutorial:nth-child(1), #exchanges .buttonTutorial:nth-child(2){ 
+        
+        margin-top: 10px;
+    }
+
+    #exchanges {
+        background-position: 539px -112px;
+        background-size: 50%;
+    }
+} 
+
+@media (min-width: 991px) and (max-width: 1024px){
+    #exchanges .buttonTutorial:nth-child(1), #exchanges .buttonTutorial:nth-child(2){ 
+        float:left;
+        margin-top: 10px;
+    }
+
+    #exchanges {
+        background-position: 419px -152px;
+        background-size: 60%;
+    }
+} 

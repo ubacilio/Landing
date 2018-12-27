@@ -1,0 +1,44 @@
+
+section#download { 
+    display: block;  
+    margin-bottom: 40px;
+    margin-top: 40px; 
+    padding: 40px 30px; 
+    background:#21ba45 url('../images/watermark.svg') no-repeat;
+    background-repeat: no-repeat;
+    background-position: 1000px -152px;
+    background-size: 35%;
+    color:white; 
+} 
+#download h3 {
+    text-align: left;
+    font-family: 'PoppinsReg';
+    font-size: 1.6em;
+    font-weight: 900; 
+}
+#download p{
+    font-family: 'PoppinsReg';
+    text-align:left;  
+}
+#download .row{
+    margin-bottom:0px;
+}
+#download .grid .row img.ui.image{
+    margin-top:0px;
+}
+@media (min-width:768px) and (max-width: 1025px){
+
+    section#download {
+        background-position: 430px -92px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 736px){
+    section#download {
+        margin-top: 30px;
+        height:unset;
+    }
+    #download .grid .row img.ui.image {
+        margin: 0 auto;
+    }
+}

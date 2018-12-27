@@ -1,0 +1,15 @@
+{
+    "user": "User",
+    "menu":{
+        "home": "Home",
+        "technologies": "Technologies",
+        "platform": "Platform",
+        "aboutUs": "About Us",
+        "faq": "FAQ",
+        "blog": "Blog"
+    },
+    "home":{
+        "title": "CST MINING,",
+        "subtitle": "BEGIN YOU MINING CRYPTOCURRENCIES"
+    }
+}

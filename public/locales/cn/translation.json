@@ -1,0 +1,11 @@
+{
+    "user": "User",
+    "menu":{
+        "home": "ConiChiWa",
+        "technologies": "技术",
+        "platform": "平台",
+        "aboutUs": "关于我们",
+        "faq": "常见问题解答",
+        "blog": "博客"
+    }
+} 
